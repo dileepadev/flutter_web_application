@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_web_application/pages/second_page.dart';
 import 'package:flutter_web_application/theme/app_theme_data.dart';
 import 'package:flutter_web_application/widgets/custom_appbar.dart';
+import 'package:flutter_web_application/widgets/footer.dart';
 
 class HomePage extends StatefulWidget {
   final String title;
@@ -37,6 +38,7 @@ class _HomePageState extends State<HomePage> {
                   );
                 },
                 child: const Text("Next Page")),
+            Footer(context: context).footer(),
           ],
         ),
       ),

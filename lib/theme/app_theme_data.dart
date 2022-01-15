@@ -5,6 +5,7 @@ class AppThemeData {
   final String packageName = "dev.dileepabandara.flutter_web_application";
   final String appVersion = "1.0.0+1";
   final Color appColor = const Color.fromRGBO(36, 71, 215, 1.0);
+  final Color footerColor = const Color.fromRGBO(33, 33, 33, 1.0);
 
   final TextStyle headline6Style = const TextStyle(
       fontSize: 20.0,
@@ -20,6 +21,11 @@ class AppThemeData {
       fontSize: 16.0,
       fontWeight: FontWeight.w600,
       color: Color.fromRGBO(33, 33, 33, 1.0));
+
+  final TextStyle subtitle1StyleWhite = const TextStyle(
+      fontSize: 16.0,
+      fontWeight: FontWeight.normal,
+      color: Color.fromRGBO(255, 255, 255, 1.0));
 
   final ButtonStyle textButtonStyle =
       TextButton.styleFrom(primary: Colors.white);
